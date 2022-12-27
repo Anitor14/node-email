@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/send", sendEmail);
-
+ 
 // running our middleware.
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
